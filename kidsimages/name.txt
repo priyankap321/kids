@@ -1,0 +1,27 @@
+apple.jpg
+ball.jpg
+cat.jpg
+dog.jpg
+elephant.jpg
+fish.jpg
+giraffe.jpg
+horse.jpg
+ice cream.jpg
+jug.jpg
+kite.jpg
+lion.jpg
+monkey.jpg
+name.txt
+nest.jpg
+orange.jpg
+parrot.jpg
+queen.jpg
+rat.jpg
+sun.jpg
+tiger.jpg
+umbrella.jpg
+van.jpg
+whale.jpg
+x-mas.jpg
+yak.jpg
+zebra.jpg

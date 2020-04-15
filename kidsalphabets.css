@@ -1,0 +1,36 @@
+body{
+  background-color: pink;
+
+}
+h1 {
+  color:red;
+  text-align:center;
+  margin-top: 80px;
+}
+.upcontainer{
+  width: 180px;
+  height: 230px;
+border: 20px ;
+float: left;
+
+}
+.container{
+  width: 150px;
+  height: 200px;
+  float:left;
+  border: 20px ;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  transition: all 0.1s ease-in-out;
+  background:linear-gradient(to bottom,#00ccff,#b3f0ff);
+
+}
+img{
+  display: block;
+  width: 80%;
+  height: 70%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
