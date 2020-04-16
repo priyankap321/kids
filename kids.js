@@ -22,20 +22,29 @@ for(var i=65;i<=90;i++){
 names={"A":"apple","B":"ball","C":"cat","D":"dog","E":"elephant","F":"fish","G":"giraffe","H":"horse","I":"ice cream","J":"jug","K":"kite","L":"lion","M":"monkey","N":"nest","O":"orange","P":"parrot","Q":"queen","R":"rat","S":"sun","T":"tiger","U":"umbrella","V":"van","W":"whale","X":"x-mas","Y":"yak","Z":"zebra"};
 
 function flip(obj){
-  //var id = setInterval(rotate,100);
+  playAudio();
   obj.style.transform="rotateY(360deg)";
   obj.innerHTML='<img src="kidsimages/'+names[obj.id]+'.jpg" alt="'+names[obj.id]+'">'+
   '<h4>'+names[obj.id].toUpperCase()+'</h4>';
   obj.setAttribute("onclick","reflip(this)");
-  //obj.style.transform="rotateY(0deg)";
-
+  
 }
 function reflip(obj){
+  playAudio();
   obj.style.transform="rotateY(0deg)";
   obj.innerHTML='<h1>'+obj.id+' | '+obj.id.toLowerCase()+'</h1>';
   obj.setAttribute("onclick","flip(this)");
 }
 
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
 
 function flip1(obj){
   //var id = setInterval(rotate,100);
@@ -62,3 +71,4 @@ function flip1(obj){
     obj.style.transform="rotateY("+num+"deg)";
   }
 }
+
