@@ -1,0 +1,46 @@
+body{
+  background: url(signup1.jpg)
+  no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+
+}
+.container{
+  width:40%;
+  margin:auto;
+  overflow: hidden;
+  padding:1rem;
+  background-color: #fff;
+  border-radius:10px;
+  text-align:center;
+  margin-top: 7%;
+}
+hr {
+  width:80%
+}
+.fb{
+  padding:0.5rem 2rem;
+  color:#fff;
+  background-color: #426782;
+  border:none;
+  border-radius: 5px;
+
+}
+a {
+  text-decoration: none;
+  }
+.container input{
+  padding: 0.5rem
+  width:70%
+}
+.container input[type=checkbox]{
+  width:auto;
+}
+.btn{
+  padding:1rem;
+  background-color: #2ecc71
+  font-size:1rem
+  width:50%
+  border-radius:7px;
+  border:none;
+}

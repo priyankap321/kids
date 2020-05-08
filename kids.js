@@ -9,7 +9,7 @@ container.setAttribute("class", "container");
 container.setAttribute("id", alpha);
 container.appendChild(text);
 container.setAttribute("onclick", "flip(this)");
-container.style.transition = "all 0.5s";
+container.style.transition = "all 1s";
 //container.style.transform="rotate(60deg)";
 flashcard.appendChild(container);
 box.appendChild(flashcard);
